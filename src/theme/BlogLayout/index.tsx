@@ -12,7 +12,7 @@ export default function BlogLayout(props: Props): JSX.Element {
   return (
     <Layout {...layoutProps}>
       <div className="container margin-vert--md">
-        <div className="row" style={}>
+        <div className="row">
           <BlogSidebar sidebar={sidebar} />
           <main
             className={clsx('col', {
