@@ -6,7 +6,6 @@ import { Icon } from '@iconify/react'
 
 export default function MDXA(props: Props): JSX.Element {
   const href = props.href
-  console.log("123123123124")
 
   if (!href) return <Link {...props} />
 

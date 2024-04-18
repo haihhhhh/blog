@@ -6,7 +6,7 @@ import {useVisibleBlogSidebarItems} from '@docusaurus/theme-common/internal';
 import type {Props} from '@theme/BlogSidebar/Desktop';
 import { useBlogPost } from '@docusaurus/theme-common/internal'
 import { Icon } from '@iconify/react'
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 
 export default function BlogSidebarDesktop({sidebar}: Props): JSX.Element {
   const items = useVisibleBlogSidebarItems(sidebar.items);
@@ -16,7 +16,7 @@ export default function BlogSidebarDesktop({sidebar}: Props): JSX.Element {
     window.history.back()
   }
   return (
-    <aside className="col col--3"  
+    <aside className="col col--2"  
     onMouseEnter={() => setIsHovered(true)}
     onMouseLeave={() => setIsHovered(false)}>
       <nav

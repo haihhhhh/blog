@@ -170,7 +170,7 @@ const config: Config = {
         editLocalizedFiles: false,
         blogDescription: "老海的博客",
         blogSidebarCount: 10,
-        blogSidebarTitle: "最近的博客",
+        blogSidebarTitle: "全部博客",
         postsPerPage: 10,
         showReadingTime: true,
         readingTime: ({ content, frontMatter, defaultReadingTime }) =>

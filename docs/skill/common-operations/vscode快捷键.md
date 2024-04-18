@@ -1,10 +1,11 @@
 ---
+id: vscode_keyboard_shortcut
 title: vscode快捷键
-slug:    vscode keyboard shortcut
+slug: /common-operations/vscode_keyboard_shortcut
 date: 2024-01-13
 authors: laohai
-tags: [orm, prisma, typeorm]
-keywords: [orm, prisma, typeorm]
+tags: [vscode]
+keywords: [vscode]
 ---
 
 <!-- truncate -->

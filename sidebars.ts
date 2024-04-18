@@ -5,11 +5,12 @@ const sidebars: SidebarsConfig = {
     'skill/introduction',
     // 'skill/git-common-operations',
      {
-      label: '常用操作',
+      label: '常规操作都坐下',
       type: 'category',
       link: { type: 'generated-index' },
       items: [
         'skill/common-operations/git-common-operations',
+        'skill/common-operations/vscode_keyboard_shortcut',
       ],
     },
     // {
