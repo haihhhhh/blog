@@ -8,7 +8,7 @@ const config: Config = {
   title: "老海的世界",
   tagline: "",
   favicon: "img/favicon.ico",
-  url: "https://laohai.com",
+  url: "https://laohaicode.com",
   baseUrl: "/",
   organizationName: "laohai", // Usually your GitHub org/user name.
   projectName: "tinghai_blog", // Usually your repo name.
