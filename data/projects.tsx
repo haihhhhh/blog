@@ -3,7 +3,7 @@ export const projects: Project[] = [
     title: '老海的个人主页',
     description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客',
     preview: '/img/project/blog.png',
-    website: 'https://laohai.com',
+    website: 'https://laohaicode.com',
     source: 'https://github.com/haihhhhh/blog',
     tags: ['opensource', 'design', 'favorite'],
     type: 'web',
