@@ -20,13 +20,13 @@ type SocialValue = {
 const social: Social = {
   github: 'https://github.com/haihhhhh',
   twitter: 'https://twitter.com/haihhhhh',
-  juejin: 'https://juejin.cn/user/1565318510545901',
-  qq: 'https://img.haihhhhh.cn/qq.png',
-  wx: 'https://img.haihhhhh.cn/wechat.png',
+  juejin: 'https://juejin.cn/user/166781499738919',
+  qq: 'https://img.laohaicode.com/qq.png',
+  wx: 'https://img.laohaicode.com/wechat.png',
   // zhihu: 'https://www.zhihu.com/people/haihhhhh',
   // cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
-  email: 'mailto:hi@haihhhhh.cn',
-  discord: 'https://discord.gg/M8cVcjDxkz',
+  email: 'mailto:laohai@laohaicode.com',
+  discord: 'https://discord.gg/M8cVcj23',
 }
 
 const socialSet: Record<keyof Social | 'rss', SocialValue> = {
