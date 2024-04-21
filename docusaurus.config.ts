@@ -11,13 +11,16 @@ const config: Config = {
   url: "https://laohaicode.com",
   baseUrl: "/",
   organizationName: "laohai", // Usually your GitHub org/user name.
-  projectName: "tinghai_blog", // Usually your repo name.
+  projectName: "老海的个人主页", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   themeConfig: {
-    // Replace with your project's social card
-    //image: 'img/docusaurus-social-card.jpg',
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     navbar: {
       title: "",
       logo: {
@@ -130,12 +133,6 @@ const config: Config = {
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   routeBasePath: '/', // Serve the blog at the site's root
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
         blog: false,
         theme: {
           customCss: "./src/css/custom.scss",
