@@ -3,16 +3,80 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
 const sidebars: SidebarsConfig = {
   skill: [
     'skill/introduction',
-    // 'skill/git-common-operations',
-     {
-      label: '常规操作都坐下',
+    {
+      label: '常规操作',
       type: 'category',
       link: { type: 'generated-index' },
       items: [
         'skill/common-operations/git-common-operations',
         'skill/common-operations/vscode_keyboard_shortcut',
+        'skill/common-operations/centos7_common_operations',
+        'skill/common-operations/eclipse_launch_multiple_projects',
+        'skill/common-operations/mysql_common_operations',
+        'skill/common-operations/nginx_common_operations',
+        'skill/common-operations/log4j_logger_names'
       ],
     },
+    {
+      label: '数据库',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'skill/database/mysql_zip_log',
+      ],
+    },
+    {
+      label: 'jvm',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'skill/jvm/jvm_set_hashcode',
+      ],
+    },
+    {
+      label: '运维',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'skill/maintenance/maintenance_skill_about_security',
+      ],
+    },
+    {
+      label: '网络',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'skill/network/tcp_udp_difference',
+      ],
+    },
+    {
+      label: 'java',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'skill/java/javacode_mem',
+      ],
+    },
+    {
+      label: 'office',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'skill/office/openoffice_study_category_chapter_1',
+      ],
+    },
+    {
+      label: 'other',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'skill/other/log4j_WARN_custom_level_class_not_found_solution',
+      ],
+    },
+
+
+    
+   
     // {
     //   label: '常用操作',
     //   type: 'category',

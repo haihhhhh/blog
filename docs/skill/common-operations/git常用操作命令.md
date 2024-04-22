@@ -5,7 +5,7 @@ slug: /common-operations/git-common-operations
 date: 2024-01-13
 authors: laohai
 tags: [git]
-keywords: [git]
+keywords: [git,常用操作]
 ---
 ## git config
 

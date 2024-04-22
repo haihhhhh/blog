@@ -5,7 +5,7 @@ slug: /common-operations/vscode_keyboard_shortcut
 date: 2024-01-13
 authors: laohai
 tags: [vscode]
-keywords: [vscode]
+keywords: [vscode,快捷键]
 ---
 
 <!-- truncate -->
