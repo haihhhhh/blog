@@ -9,7 +9,9 @@ keywords: [eclipse]
 ---
 
 # eclipse一次性开启多个工程
-<font color="gray">! 这是一篇较为久远的文章，其中的知识有可能已经过时</font><br/>
+:::info 提示
+这是一篇较为久远的文章，其中的知识有可能已经过时
+:::
 
 
 近日有个小需求：因同时制作了多个应用，相互关联。每次启动，都需一个一个的点运行，觉得太麻烦。因此在网上找到了一个插件来解决这个问题。
@@ -49,4 +51,4 @@ http://download.eclipse.org/tools/cdt/releases/9.2
 
 ![](https://fastly.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221639613.bmp)
 
-解决问题的原帖：https://stackoverflow.com/questions/4053265/eclipse-running-multiple-launch-configurations-at-once/11905444
+[查看解决问题的原帖](https://stackoverflow.com/questions/4053265/eclipse-running-multiple-launch-configurations-at-once/11905444)

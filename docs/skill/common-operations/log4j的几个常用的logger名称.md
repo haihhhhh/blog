@@ -7,7 +7,9 @@ authors: laohai
 tags: [log4j,较久远的日志]
 keywords: [log4j]
 ---
-<font color="gray">! 这是一篇较为久远的文章，其中的知识有可能已经过时</font><br/>
+:::info 提示
+这是一篇较为久远的文章，其中的知识有可能已经过时
+:::
 今天在配置log4j的时候，成功之后打印了一堆其他组件的日志信息。
 于是想在业务中配置他们的属性，在网上找到了几个常用的：
 ~~~properties

@@ -7,7 +7,9 @@ authors: laohai
 tags: [log4j,问题解决,较久远的日志]
 keywords: [log4j]
 ---
-<font color="gray">! 这是一篇较为久远的文章，其中的知识有可能已经过时</font><br/>
+:::info 提示
+这是一篇较为久远的文章，其中的知识有可能已经过时
+:::
 在写一个log4j demo的时候出现了下面的错误：
 
 log4j:WARN custom level class [xxxxx] not found.

@@ -50,11 +50,18 @@ const sidebars: SidebarsConfig = {
       ],
     },
     {
-      label: 'java',
+      label: '编程语言',
       type: 'category',
       link: { type: 'generated-index' },
       items: [
-        'skill/java/javacode_mem',
+        {
+          label: 'java',
+          type: 'category',
+          link: { type: 'generated-index' },
+          items: [
+            'skill/programming_language/java/javacode_mem',
+          ],
+        }
       ],
     },
     {
@@ -66,7 +73,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
     {
-      label: 'other',
+      label: '其他',
       type: 'category',
       link: { type: 'generated-index' },
       items: [

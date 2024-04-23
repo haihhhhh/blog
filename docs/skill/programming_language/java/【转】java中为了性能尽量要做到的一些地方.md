@@ -1,13 +1,15 @@
 ---
 id: javacode_mem
 title: 【转】Java编程中为了性能尽量要做到的一些地方
-slug: /java/javacode_mem
+slug: /programming_language/java/javacode_mem
 date: 2014-2-27 16:17:00
 authors: laohai
 tags: [java,优化,转载,较久远的日志]
 keywords: [java,性能,转载]
 ---
-<font color="gray">! 这是一篇较为久远的文章，其中的知识有可能已经过时</font><br/>
+:::info 提示
+这是一篇较为久远的文章，其中的知识有可能已经过时
+:::
 Java编程中“为了性能”尽量要做到的一些地方
 下面是参考网络资源总结的一些在Java编程中尽可能要做到的一些地方。
 
