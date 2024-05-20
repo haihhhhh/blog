@@ -5,7 +5,7 @@ import social from "./data/social";
 const beian = "苏ICP备2024101935号"; 
 const beian1 = ""; //'闽公网安备111'
 const config: Config = {
-  title: "星海听雨1",
+  title: "星海听雨",
   tagline: "",
   favicon: "img/favicon.ico",
   url: "https://laohaicode.com",
