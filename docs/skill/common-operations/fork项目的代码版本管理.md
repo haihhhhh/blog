@@ -1,3 +1,12 @@
+---
+id: fork-project-code-version-management
+title: fork项目的代码版本管理
+slug: /common-operations/fork-project-code-version-management
+date: 2024-05-13
+authors: laohai
+tags: [git]
+keywords: [git,常用操作]
+---
 如果你fork了一个项目，想以此为基础打造自己的项目，要如何做好代码版本管理呢？
 
 1. 首先在本地仓库你要创建一个开发的分支，用来完成自己的修改，修改测试无误的功能再推送到master分支

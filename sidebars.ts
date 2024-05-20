@@ -9,6 +9,7 @@ const sidebars: SidebarsConfig = {
       link: { type: 'generated-index' },
       items: [
         'skill/common-operations/git-common-operations',
+        'skill/common-operations/fork-project-code-version-management',
         'skill/common-operations/vscode_keyboard_shortcut',
         'skill/common-operations/centos7_common_operations',
         'skill/common-operations/eclipse_launch_multiple_projects',
