@@ -33,15 +33,15 @@ const SKILLS: IconProps[] = [
   //   icon: 'logos:prisma',
   //   style: { top: '24%', left: '50%' },
   // },
-  {
-    icon: 'logos:tailwindcss-icon',
-    style: { top: '48%', left: '48%' },
-  },
+  // {
+  //   icon: 'logos:tailwindcss-icon',
+  //   style: { top: '40%', left: '53%' },
+  // },
 
   //后端
   {
     icon: 'logos:java',
-    style: { bottom: '24%', left: '33%',width: '100px',height: '130px' },
+    style: { bottom: '28%', left: '33%',width: '90px',height: '110px' },
   },
   {
     icon: 'logos:mysql',
