@@ -47,7 +47,7 @@ function Date({ date, formattedDate }: { date: string; formattedDate: string }) 
 export default function BlogPostItemHeaderInfo({ className }: Props): JSX.Element {
   const { metadata } = useBlogPost()
   const { date, tags, readingTime } = metadata
-  const formatDate= formatIsoDateStringWithoutMillis(date);
+  const formatDate= formatIsoDateStringWithoutMillis(date,'Asia/Shanghai');
   const tagsExists = tags.length > 0
   return (
     <div className={clsx(styles.container, 'margin-bottom--md', className)}>
