@@ -127,8 +127,8 @@ const config: Config = {
         docs: {
           path: "docs",
           sidebarPath: "./sidebars.ts",
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: false,
         theme: {
@@ -142,7 +142,9 @@ const config: Config = {
     "docusaurus-plugin-image-zoom",
     "docusaurus-plugin-sass",
     "@docusaurus/plugin-ideal-image",
-    // ['docusaurus-plugin-baidu-tongji', { token: 'c9a3849aa75f9c4a4e65f846cd1a5155' }],
+    ['docusaurus-plugin-baidu-tongji',
+     { token: '4c4b91a4bd7881dde6ccbdd5824b2f4b' }
+    ],
     // [
     //   '@docusaurus/plugin-pwa',
     //   {
