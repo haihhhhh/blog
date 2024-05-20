@@ -145,6 +145,13 @@ const config: Config = {
     ['docusaurus-plugin-baidu-tongji',
      { token: '4c4b91a4bd7881dde6ccbdd5824b2f4b' }
     ],
+    [
+      'vercel-analytics',
+      {
+        debug: true,
+        mode: 'auto',
+      },
+    ],
     // [
     //   '@docusaurus/plugin-pwa',
     //   {
