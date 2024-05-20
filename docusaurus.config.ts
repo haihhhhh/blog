@@ -2,16 +2,16 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 import social from "./data/social";
-const beian = ""; //'闽ICP备11111'
+const beian = "苏ICP备2024101935号"; 
 const beian1 = ""; //'闽公网安备111'
 const config: Config = {
-  title: "老海的世界",
+  title: "星海听雨",
   tagline: "",
   favicon: "img/favicon.ico",
   url: "https://laohaicode.com",
   baseUrl: "/",
   organizationName: "laohai", // Usually your GitHub org/user name.
-  projectName: "老海的个人主页", // Usually your repo name.
+  projectName: "blog", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -100,9 +100,6 @@ const config: Config = {
       ],
       copyright: `
         <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
-        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
-          beian1.match(/\d+/)?.[0]
-        }" >${beian1}</a></p>
         <p>Copyright © 2024 - PRESENT 老海 Built with Docusaurus.</p>
         `,
     },
