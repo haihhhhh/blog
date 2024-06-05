@@ -1,7 +1,7 @@
 ---
 id: log4j_WARN_custom_level_class_not_found_solution
 title: log4j：WARN custom level class not found问题解决方法
-slug: /other/log4j_WARN_custom_level_class_not_found_solution
+slug: /java/log4j_WARN_custom_level_class_not_found_solution
 date: 2017-8-24 13:49:04
 authors: laohai
 tags: [log4j,问题解决,较久远的日志]

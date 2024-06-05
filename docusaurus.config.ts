@@ -39,22 +39,23 @@ const config: Config = {
           position: "right",
           to: "project",
         },
-        {
-          label: "笔记",
-          position: "right",
-          to: "docs/skill",
-        },
         // {
-        //   label: '更多',
-        //   position: 'right',
-        //   items: [
-        //     { label: '归档', to: 'blog/archive' },
-        //     { label: '笔记', to: 'docs/skill' },
-        //     { label: '资源', to: 'resources' },
-        //     { label: '友链', to: 'friends' },
-        //     { label: '工具推荐', to: 'docs/tools' },
-        //   ],
+        //   label: "笔记",
+        //   position: "right",
+        //   to: "docs/skill",
         // },
+        {
+          label: '笔记 ',
+          position: 'right',
+          items: [
+            // { label: '归档', to: 'blog/archive' },
+            { label: '解决方案', to: 'docs/solution' },
+            { label: '技术笔记', to: 'docs/skill' },
+            // { label: '小说', to: 'docs/novel' },
+            // { label: '友链', to: 'friends' },
+            // { label: '工具推荐', to: 'docs/tools' },
+          ],
+        },
         // {
         //   type: "localeDropdown",
         //   position: "right",

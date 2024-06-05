@@ -2,7 +2,7 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
 
 const sidebars: SidebarsConfig = {
   skill: [
-    'skill/introduction',
+    'skill/skill_introduction',
     {
       label: '常规操作',
       type: 'category',
@@ -73,14 +73,14 @@ const sidebars: SidebarsConfig = {
         'skill/office/openoffice_study_category_chapter_1',
       ],
     },
-    {
-      label: '其他',
-      type: 'category',
-      link: { type: 'generated-index' },
-      items: [
-        'skill/other/log4j_WARN_custom_level_class_not_found_solution',
-      ],
-    },
+    // {
+    //   label: '其他',
+    //   type: 'category',
+    //   link: { type: 'generated-index' },
+    //   items: [
+    //     'skill/other/log4j_WARN_custom_level_class_not_found_solution',
+    //   ],
+    // },
 
 
     
@@ -126,6 +126,26 @@ const sidebars: SidebarsConfig = {
     //   ],
     // },
    
+  ],
+  solution: [
+    'solution/solution_introduction',
+    {
+      label: 'ts&js&node',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'solution/ts&js&node/node_problem',
+      ],
+    },
+    {
+      label: 'java',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'solution/java/log4j_WARN_custom_level_class_not_found_solution',
+      ],
+    },
+    
   ]
 }
 
