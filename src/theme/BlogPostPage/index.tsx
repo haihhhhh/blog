@@ -10,6 +10,8 @@ import TOC from '@theme/TOC';
 import type {Props} from '@theme/BlogPostPage';
 import Unlisted from '@theme/Unlisted';
 import type {BlogSidebar} from '@docusaurus/plugin-content-blog';
+import Comment from '@site/src/components/Comment'
+import BackToTopButton from '@theme/BackToTopButton'
 
 function BlogPostPageContent({
   sidebar,
@@ -24,6 +26,7 @@ function BlogPostPageContent({
     hide_table_of_contents: hideTableOfContents,
     toc_min_heading_level: tocMinHeadingLevel,
     toc_max_heading_level: tocMaxHeadingLevel,
+    hide_comment: hideComment,
   } = frontMatter;
   return (
     <BlogLayout
@@ -43,6 +46,8 @@ function BlogPostPageContent({
       {(nextItem || prevItem) && (
         <BlogPostPaginator nextItem={nextItem} prevItem={prevItem} />
       )}
+        {!hideComment && <Comment />}
+        <BackToTopButton />
     </BlogLayout>
   );
 }

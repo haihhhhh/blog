@@ -2,6 +2,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 import social from "./data/social";
+import type { GiscusConfig } from './src/components/Comment'
 const beian = "苏ICP备2024101935号"; 
 const gonganbeian = "苏公网安备32021402002660号"; 
 const config: Config = {
@@ -107,6 +108,14 @@ const config: Config = {
         <p>Copyright © 2024 - PRESENT 老海 Built with Docusaurus.</p>
         `,
     },
+    giscus: {
+      repo: 'haihhhhh/blog',
+      repoId: 'R_kgDOLfHwRg',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOLfHwRs4CgFOl',
+      theme: 'light',
+      darkTheme: 'dark_dimmed',
+    } satisfies Partial<GiscusConfig>,
     tableOfContents: {
       minHeadingLevel: 2,
       maxHeadingLevel: 4,
