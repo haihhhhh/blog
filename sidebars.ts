@@ -24,6 +24,7 @@ const sidebars: SidebarsConfig = {
       link: { type: 'generated-index' },
       items: [
         'skill/database/mysql_zip_log',
+        'skill/database/redis_cluster_redis-trib.rb'
       ],
     },
     {
@@ -35,11 +36,20 @@ const sidebars: SidebarsConfig = {
       ],
     },
     {
+      label: 'linux',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        'skill/linux/centos7_init_script',
+      ],
+    },
+    {
       label: '运维',
       type: 'category',
       link: { type: 'generated-index' },
       items: [
         'skill/maintenance/maintenance_skill_about_security',
+        'skill/maintenance/arthas_hot_deployment'
       ],
     },
     {
