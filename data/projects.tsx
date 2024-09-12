@@ -8,6 +8,33 @@ export const projects: Project[] = [
     tags: ['opensource', 'design', 'favorite'],
     type: 'web',
   },
+  {
+    title: '管理系统模板(单体版)',
+    description: '🦖 基于 Ruoyi 单体版管理系统模板,校园管理业务(demo)',
+    preview: '/img/project/campus.png',
+    website: '',
+    source: 'https://github.com/haihhhhh/campus_manage',
+    tags: ['opensource', 'design', ],
+    type: 'web',
+  },
+  {
+    title: '管理系统后台(Vue)',
+    description: '🦖 基于 vben 的后台系统，可与laohai_admin_api配对使用',
+    preview: '/img/project/laohai_admin_vue.png',
+    website: '',
+    source: 'https://github.com/haihhhhh/laohai-admin-vue',
+    tags: ['opensource', 'design', ],
+    type: 'web',
+  },
+  {
+    title: '管理系统后台API',
+    description: '🦖 基于 react 、nestjs、swagger 的管理系统API，可与laohai_admin_vue配对使用',
+    preview: '/img/project/laohai_admin_api.png',
+    website: '',
+    source: 'https://github.com/haihhhhh/laohai_admin_api',
+    tags: ['opensource', 'design', ],
+    type: 'web',
+  },
  
 ]
 
