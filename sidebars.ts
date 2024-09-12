@@ -15,7 +15,8 @@ const sidebars: SidebarsConfig = {
         'skill/common-operations/eclipse_launch_multiple_projects',
         'skill/common-operations/mysql_common_operations',
         'skill/common-operations/nginx_common_operations',
-        'skill/common-operations/log4j_logger_names'
+        'skill/common-operations/log4j_logger_names',
+        'skill/common-operations/debian11_docker_install'
       ],
     },
     {
