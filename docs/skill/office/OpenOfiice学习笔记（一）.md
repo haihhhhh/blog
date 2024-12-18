@@ -15,11 +15,11 @@ keywords: [openoffice]
 由于工作忙，时间紧，研究的也是断断续续的，现将最近的研究心得记录下来，以备存档（主要是记录下自己遇到的坑）。
 ## 一.安装
 
-![img](https://fastly.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404230018905.jpeg)
+![img](https://gcore.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404230018905.jpeg)
 
 首先安装openOffice,下载安装包运行执行到这一步
 
-![img](https://fastly.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404230018557.jpeg)
+![img](https://gcore.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404230018557.jpeg)
 
 可以看到可以选择要安装的东西，这里其实类似与office的安装，简单的说Writer就是word,
 Calc就是excel,impress就是ppt。
@@ -27,12 +27,12 @@ Calc就是excel,impress就是ppt。
 
 接着我们要继续安装sdk
 
-![img](https://fastly.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404230021665.jpeg)
+![img](https://gcore.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404230021665.jpeg)
 
 安装解压成功后可以在sdk包里找到文档和例子。支持java,c++,还有别的什么语言。
 将jar包拷到自己的项目lib下就可以用了。
 这里有个很蛋疼的事情，参照网上写的攻略我在sdk中怎么也找不到jar包，后来才发现jar都在OpenOffice的安装目录里，并不在sdk里面。也不知道他们是怎么个想法。
-![img](https://fastly.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404230022586.jpeg)
+![img](https://gcore.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404230022586.jpeg)
 
 网上有专门的文章说什么功能对应什么jar包的，我也懒得看了，都一并拷过来放在lib目录下就可以测试开发了。
 

@@ -27,28 +27,28 @@ http://download.eclipse.org/tools/cdt/releases/9.2
 work with 栏填写cdt地址
 http://download.eclipse.org/tools/cdt/releases/9.2
 
-![这里写图片描述](https://fastly.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221635387.bmp)
+![这里写图片描述](https://gcore.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221635387.bmp)
 
 ### 2.勾选要安装的插件， 继续N步安装完成后重启eclipse
 
 ### 3.重启后menu会有一定的变化。
 
-![img](https://fastly.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221637441.bmp)
+![img](https://gcore.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221637441.bmp)
 
 ### 4.点击右边原来的绿箭头 Run或者Debug下拉按钮后进入Run Configure.
 
-![img](https://fastly.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221638662.bmp)
+![img](https://gcore.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221638662.bmp)
 
 ### 5.找到lanugh group
 
 新建一个group ，比如可以命名为 run all.
 
-![img](https://fastly.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221638127.bmp)
+![img](https://gcore.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221638127.bmp)
 
 ### 6.将自己要一次性同时启动的项目加入进去。保存后下次就可以运行Run all来了。
 
-![img](https://fastly.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221639613.bmp)
+![img](https://gcore.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221639613.bmp)
 
-![](https://fastly.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221639613.bmp)
+![](https://gcore.jsdelivr.net/gh/haihhhhh/myresource@master/img/202404221639613.bmp)
 
 [查看解决问题的原帖](https://stackoverflow.com/questions/4053265/eclipse-running-multiple-launch-configurations-at-once/11905444)
